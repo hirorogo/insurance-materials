@@ -1,0 +1,15 @@
+section {
+  border: 12px solid;
+  border-image: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  ) 1;
+  border-radius: 20px;
+  padding: 30px; 
+}
