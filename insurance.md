@@ -55,7 +55,7 @@ theme: theme.css
 SNSやアプリを通じて違法薬物が売買されることがあります。  
 警察もSNSやアプリ上で監視を強化しています。
 
-<div style="display:flex; gap:24px;">
+<div class="SNS_pic">
   <img src="./assets/SNS/Telegram.png" width="120">
   <img src="./assets/SNS/Signal.png" width="120">
   <img src="./assets/SNS/SimpleX .png" width="120">

@@ -109,9 +109,9 @@ ul {
 }
 
 /* --- 画像のデザイン --- */
-img {
-  display: block;
-  margin: 0 auto;
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+.SNS_pic{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 }
