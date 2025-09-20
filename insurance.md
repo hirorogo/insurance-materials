@@ -11,7 +11,7 @@ theme: theme.css
 ## 違法薬物とは
 ![width:500](./assets/薬物例　イラスト.jpg)
 違法薬物とは、法律によって所持・使用・売買が禁止されている薬物のことです。  
-健康や社会生活に深刻な悪影響を及ぼすため、厳しく規制されています。  
+健康や社会生活に深刻な悪影響を及ぼすため、厳しく規制されている。  
 使用は身体的・精神的な依存を引き起こし、犯罪や事故の原因となることもあります。
 
 ---
@@ -29,6 +29,7 @@ theme: theme.css
 ---
 
 ## 違法薬物を使用するとどうなるのか
+![width:400](./assets/薬物例　イラスト.jpg)
 
 - 脳や身体に深刻なダメージ
 - 依存症に陥りやすい
@@ -51,9 +52,16 @@ theme: theme.css
 
 ## 違法薬物の入手経路
 
+SNSやアプリを通じて違法薬物が売買されることがあります。  
+警察もSNSやアプリ上で監視を強化しています。
+
+<div style="display:flex; gap:24px;">
+  <img src="./assets/SNS/Telegram.png" width="120">
+  <img src="./assets/SNS/Signal.png" width="120">
+  <img src="./assets/SNS/SimpleX .png" width="120">
+</div>
+
 - SNS（Instagram、Xなど）の投稿
 - 匿名性の高いメッセージアプリ（Telegram、Signal、Simplexなど）
-- SNSやアプリ経由で違法薬物の売買が行われることがある
-- 警察もSNSやアプリ上で監視を強化している
 
 ---
