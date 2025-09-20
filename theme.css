@@ -1,15 +1,32 @@
 section {
-  border: 12px solid;
+  border: 8px solid;
   border-image: linear-gradient(
     90deg,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
+    #e53935,
+    #fb8c00,
+    #fdd835,
+    #43a047,
+    #1e88e5,
+    #8e24aa
   ) 1;
-  border-radius: 20px;
-  padding: 30px; 
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  background: #fffdfa;
+}
+
+h1, h2, h3 {
+  color: #2d2d2d;
+  font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.10);
 }
