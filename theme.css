@@ -31,7 +31,7 @@ section {
     )
     1;
   background-color: #ffffff;
-}
+}marp insurance.md --pdf --allow-local-files --browser chrome
 
 section::before {
   content: "";
