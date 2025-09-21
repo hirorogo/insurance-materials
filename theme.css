@@ -33,6 +33,8 @@ section {
       oklch(65.6% 0.241 354.308)
     ) 1;
   background-color: #ffffff;
+
+  position: relative; /* 追加：h1の絶対位置指定の基準にする */
 }
 
 /* --- スライド右下のアイコン装飾 --- */
@@ -61,8 +63,16 @@ section[data-marpit-advanced-background="content"][data-marpit-advanced-backgrou
 
 /* --- 見出しのデザイン --- */
 h1 {
+  position: absolute; /* 追加：常に上部に固定 */
+  top: 2rem;          /* 上からの余白 */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
   font-size: 4rem;
   font-weight: bold;
+  color: #2d2d2d;
+  font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif;
 }
 h2 {
   font-size: 2.75rem;
@@ -82,13 +92,15 @@ h1, h2, h3 {
   font-weight: bold;
 }
 
-/* --- 見出しを中央揃え --- */
+/* --- 見出しを中央揃え（不要なのでコメントアウト） --- */
+/*
 section:has(h1) {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+*/
 
 /* --- 本文・リストのデザイン --- */
 p {
